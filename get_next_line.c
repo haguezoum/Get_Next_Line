@@ -46,7 +46,6 @@ char *chunck(char *s)
 char *string(int fd, char *line) {
     char *buff;
     int bytes;
-    int loop = 0;
     bytes = 1;
     buff = malloc((BUFFER_SIZE + 1) * sizeof(char));
     if(buff == NULL)
